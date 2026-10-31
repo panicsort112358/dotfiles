@@ -13,6 +13,9 @@ setopt INTERACTIVE_COMMENTS
 
 bindkey -e
 
+# Go tools installed with `go install` use $HOME/go/bin by default.
+export PATH="$HOME/go/bin:$PATH"
+
 autoload -Uz compinit
 compinit
 
