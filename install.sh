@@ -8,4 +8,4 @@ if ! command -v stow >/dev/null 2>&1; then
   exit 127
 fi
 
-stow --dir="$repo_dir" --target="$HOME" vim
+stow --dir="$repo_dir" --target="$HOME" vim zsh
